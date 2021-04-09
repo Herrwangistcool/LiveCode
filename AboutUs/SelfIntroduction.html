@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>The introduction of LiveCode</title>
+    <style>
+        .content{
+            width: 500px;
+            color: #555;
+            margin: auto; /* 设置居中 */
+        }
+        .content p{
+            text-indent: 2em; /* 设置段落首行缩进 */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p style="text-align: center;">
+            <span style="background-color: gray; color:white; font-size: 24px;">活码简介</span> <!-- 用span标签包裹标题，灰色背景，白色字体，24px大小 -->
+        </p> <!-- 文字居中显示 -->
+        <p>
+            普通二维码直接对文字、网址、电话等信息进行编码<u>（不能超过150个字）</u>，
+            不支持存储图片和文件。优点是无需联网也能扫描（支持扫码枪及特殊设备扫码）；
+            缺点是生成的二维码<u>图案复杂，不容易识别和打印，生成后内容无法改变。</u>
+        </p>
+        <p>
+            <b style="color: orange;">活码</b>对一个分配的短网址进行编码生成二维码。生成后可以随时修改内容，二维码图案不变，
+            可跟踪扫描统计，支持存储大量<span style="color:green">文字、图片、文件、音视、视频</span>等内容，同时图案简单易扫。
+        </p>
+        
+            <b style="color: orange;">二维码与活码的区别</b><br>
+            内容
+            <p>普通二维码只支持文字和网站，活码可以支持图片、音频、视频等内容。</p>
+            二维码图案
+            <p>普通二维码内容越多越复杂，活码图案十分简单。</p>
+            样式排版
+            <p>普通二维码不支持排版，活码可以支持排版。</p>
+            内容修改
+            <p>普通二维码一旦生成之后不能修改，活码可以随时修改内容。</p>
+            数据统计
+            <p>普通二维码不支持数据统计，活码可以。</p>
+        
+    </div>
+    
+</body>
